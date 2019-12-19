@@ -16,5 +16,5 @@ echo "done"
 
 MC_VERSION="${MC_VERSION:-1.15.1}"
 echo -n "-----> Installing server version:${MC_VERSION}... "
-curl --silent -o $BUILD_DIR/server.jar "https://s3.amazonaws.com/Minecraft.Download/versions/${MC_VERSION}/minecraft_server.${MC_VERSION}.jar" | indent
+curl --silent -o $BUILD_DIR/server.jar "https://launcher.mojang.com/v1/objects/4d1826eebac84847c71a77f9349cc22afd0cf0a1/server.jar" | indent
 echo "done"
