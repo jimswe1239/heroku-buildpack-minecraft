@@ -15,6 +15,6 @@ unzip ngrok.zip -d $BUILD_DIR/bin > /dev/null 2>&1
 echo "done"
 
 MC_VERSION="${MC_VERSION:-1.15.1}"
-echo -n "-----> Installing server version: 1.15.1... "
+echo -n "-----> Installing server version (hardcoded): 1.15.1... "
 curl --silent -o $BUILD_DIR/server.jar "https://launcher.mojang.com/v1/objects/4d1826eebac84847c71a77f9349cc22afd0cf0a1/server.jar" | indent
 echo "done"
